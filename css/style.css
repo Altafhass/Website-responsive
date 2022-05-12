@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.navbar{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.menu{
+    cursor: pointer;
+    display: none;
+    width: 55px;
+}
+
+nav ul li{
+    font-size: 1.2rem;
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li:hover{
+    color: red;
+    border-radius: 4px;
+    background-color: yellow;
+    padding: 8px;
+}
+
+.highlight{
+    padding: 8px;
+    border-radius: 4px;
+    background-color: yellow;
+    color: red;
+}
+
+.heighlight{
+    color: red;
+}
+
+.container1 {
+    margin-top: 10px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(169 234 255);
+}
+
+.col1{
+    margin-left: 80px;
+}
+
+.col1 h1{
+    font-size: 3rem;
+}
+
+.col1 h2{
+    font-size: 3rem;
+}
+
+.col1 p{
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+.button{
+    cursor: pointer;
+    margin-top: 15px;
+    width: 140px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+.button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.col2 img{
+    width: 35vw;
+}
+
+.container2{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+    margin: 0 20px;
+    margin-top: 20px;
+    }
+    
+    .box1{
+        padding-top: 18px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        padding-right: 10px;
+        background-color: #ffe8fd;
+        border-radius: 8px;
+    }
+    
+    .box1 img{
+        width: 120px;
+    }
+
+    .box1 h1{
+        color: rgb(0 25 165);
+        margin-top: 8px;
+        font-size: 30px;
+    }
+
+    .box1 h2{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    .button2{
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 140px;
+        height: 40px;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        background-color: red;
+    }
+    .button2:hover{
+        background-color: yellow;
+        color: black;
+    }
+
+    footer{
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .container3{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        column-gap: 5px;
+        row-gap: 5px;
+    }
